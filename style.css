@@ -1,102 +1,70 @@
+
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
 }
 
 body{
-    min-height: 100vh;
-    background-color: #171818;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header{
-    position: fixed;
+    background-color: rgb(54, 204, 214);
+    height: 80px;
+    position: relative;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: #8b1d1d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+}
 
+.nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .logo{
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.navbar a{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 30px;
-}
-
-.navbar a:hover{
-    color: #000000;
-}
-
-.perro{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-
-
-.container{
-    max-width: 1200px;
-    margin: 0   auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px;
-    grid-gap: 20px;
-    padding: 100px 0;
-}
-
-.box img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
-}
-
-
-
-.AboutBG{
-    padding: 20px;
-    background-color: #8b1d1d;
-    display: flex;
-}
-
-h5{
-    font-size: 70px;
-    color: rgb(19, 16, 16);
-    font-style: oblique;
-    padding: 0px 20px;
-}
-
-p{
     font-size: 30px;
-    font-weight: 600;
-    padding: 0px 20px;
-    margin-right: 200px;
-    color: rgb(19, 16, 16);
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
 }
 
-.hola{
-    margin-right: 150px;
-    margin-top: 20px;
-    height: 250px;
-    width: 350px;
-    border-radius: 12px;
+.nav-link{
+   /* font-size: 50px; se prioriza el sobrepuesto*/ 
+    color:white;
+    text-decoration: none;
 }
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover{
+    color: goldenrod
+}
+.button-box {
+    background-color: #fff;
+    color: #56070c;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 1px 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .button-box:hover {
+    background-color: rgb(134, 17, 17);
+    color: black;
+  }

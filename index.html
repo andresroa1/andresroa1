@@ -1,72 +1,182 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
     <link rel="stylesheet" href="style.css">
-    <title>mi página web an</title>
 </head>
 <body>
-
-<!-- BARRA DE NAVEGACION -->
     <header class="header">
-        <a href="#" class="logo">An</a>
-
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#sobreMi">About Me</a>
-            <a href="#links">Links</a>
+        <nav class="nav">
+            <a href="https://www.expertoanimal.com/los-20-perros-mas-elegantes-del-mundo-20599.html" class="logo nav-link"><img src="./imagenes/icons8-formal-outfit-100.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="#fotos">Animales</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="https://www.youtube.com/watch?v=6U88OuslLq8">Videos</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="#leer">Plus</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="#datos">Encargado</a></li>
+            </ul>
         </nav>
     </header>
-    
-    <div class="principal">
-        <h1>Home</h1>
-        <img class="perro" src="c:\Users\Clases\Downloads\imagen.perro1.jfif">
+    <main>
+        <style>
+            .seccion-con-imagen{
+              display:flex;
+              justify-content: center;
+              align-items: center;
+            }
+            #fondo{
+              width: 100%;
+              height: 650px;
+              background-image: url(./imagenes/pokerdog.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+            }
+          </style>
+            <div class="seccion-con-imagen">
+              <div id="fondo" class="seccion-con-imagen">
+               <h1 style="color:rgb(14, 11, 4)">Poker Dog</h1>
+              </div>
+            </div>
+            <footer id="fotos" style="text-align: center; background-color: #333; color: #fff; padding: 20px;">
+              <div>
+                  <h2 style="background-color: #333; color:rgb(255, 255, 255);">Animales Trajeados</h2>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding-top: 50px; padding-bottom: 20%;background-color: #333;">
+                  <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px;">
+                    <img style="max-width: 100%;" src="./imagenes/Conejo elegante en ia generativa formal _ Foto Premium.jfif"/>
+                  </div>
+                  <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px; ">
+                    <img style="max-width: 70%;" src="./imagenes/Leono.jfif"/>
+                  </div>
+                  <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px;padding-right: 20px;">
+                    <img style="max-width: 70%;" src="./imagenes/perro0.jpg"/>
+                  </div>
+              </div>
+          </footer>          
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-top: 100px;padding-bottom: 500px; background-color: #333;">
+              <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px;">
+                <img style="max-width: 80%;" src="./imagenes/perro3.avif"/>
+              </div>
+              <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px; ">
+                <img style="max-width: 79%;" src="./imagenes/perro4.jpg">
+              </div>
+              <div style="flex: 1; text-align: center; width: 300px; height: 300px;padding-left: 20px;padding-right: 20px;">
+                <img style="max-width: 67%;" src="./imagenes/perro10.jpg"/>
+              </div>
+    </main>
+<div class="project" style="background-color: #073ac5; color: #fff;">
+  <div style="display: flex;">
+    <div style="flex: 1; margin-left: 15px;">
+      <h1 style="color: gold; margin-top: 20px;">SVLG - A beautiful library with SVG logos</h1>
+      <div class="buttons" style="margin-left: 15px; margin-top: 10px;">
+        <button class="button-box">Next.js</button>
+        <button class="button-box">Tailwind CSS</button>
+      </div>
+      <p>Biblioteca de logos SVG de las marcas más populares.<br> +10k visitas al mes. +2k svgs descargados. Creado desde<br> cero con Next.js React y Tailwind CSS.</p>
+      <div class="actions">
+        <button>Code</button> <button>Preview</button>
+      </div>
     </div>
-
-
-<!-- GALERIA -->
-    <div id="gallery" class="container">
-        <div class="box">
-            <img src="imagen1/perro1.jfif">
-        </div>
-        <div class="box">
-            <img src="imagen1/perro2.jfif">
-        </div>
-        <div class="box">
-            <img src="imagen1/perro3.jfif">
-        </div>
-        <div class="box">
-            <img src="imsgen1/perro4.jfif">
-        </div>
-        <div class="box">
-            <img src="imagen1/perro5.jfif">
-        </div>
-        <div class="box">
-            <img src="imagen1/perros.jfif">
-        </div>
+    <div style="flex: 1; text-align: center;">
+      <img src="./imagenes/donpollo.jpg" alt="Imagen del manga" style="max-width: 65%; height: auto; margin-top: 30px;">
     </div>
-
-<!-- Sobre mi -->
-
-    <div class="AboutBG" id="sobreMi">
-        <div>
-            <h5>Sobre mí</h5>
-            <p>Hola , este soy yo Andrés .Me gusta cocinar , leer y sobre todo desallorar páginas web.
-            </p>
-        </div>
-        <img class="hola" src="imagen1/perro.jfif">
+  </div>
+</div>
+   
+<div class="project" style="background-color: #073ac5   ; color: #fff;">
+  <div style="display: flex;">
+    <div style="flex: 1; margin-left: 15px;">
+      <h1 style="color: gold; margin-top: 20px;">AdventJS - Retos de programación con JavaScript y TypeScript</h1>
+      <div class="buttons" style="margin-left: 15px; margin-top: 10px;">
+        <button class="button-box">Next.js</button>
+            <button class="button-box">Tailwind CSS</button>
+      </div>
+      <p>Plataforma gratuita con retos de programación. Más de 1<br> millón de visitas en un mes. +50K retos completados.<br> Creada desde cero con Next.js React y tailwind CSS.
+      </p>
     </div>
-
-
-<!-- Links -->
-
-    <footer id="links" class="footer">
-        <h1>Links</h1>
-        <nav class="footerLink">
-            <a href="https://www.promocion.purina.cl/adopcion/pagina-purina.php">página de adopción</a>
-            <a href="https://www.buscadog.cl/">más perros</a>
-            <a href="https://www.garrasypatas.cl/adopta">Fundación de perros</a>
-            <a href="https://es.wikipedia.org/wiki/Canis_lupus">Lobos</a>
-        </nav>
+    <div style="flex: 1; text-align: center;">
+      <img src="./imagenes/sapo.jfif" alt="caracteristicas" style="max-width: 65%; height: auto; margin-top: 100px;">
+    </div>
+  </div>
+  <div class="actions" style="margin-left: 15px;">
+    <button>Preview</button>
+  </div>
+</div>
+   
+       
+<footer id="datos" style="text-align: center; background-color: #333; color: #fff; padding: 20px;">
+    <div style="max-width: 900px; margin: auto;">
+        <div style="display: flex; justify-content: space-between;">
+            <div style="text-align: left;">
+                <h2 style="color: gold; font-family: Arial; margin-bottom: 10px;">Datos Personales</h2>
+                <div style="font-family: Arial, Helvetica, sans-serif;">
+                    <p>Nombre: Andres Roa </p>
+                    <p>Fecha de nacimiento: 22 de julio 2024</p>
+                    <p>Contacto: +56 9 **** ****</p>
+                </div>
+            </div>
+            <div>
+                <h2 style="color: gold; font-family: Arial; margin-bottom: 10px;">Lenguaje de Programación</h2>
+                <div style="font-family: Arial, Helvetica, sans-serif;">
+                    <p>Python: Intermedio/Básico</p>
+                    <p>SQL Database: Intermedio</p>
+                    <p>HTML: Intermedio</p>
+                    <p>CSS: Básico</p>
+                </div>
+            </div>
+            <div>
+                <h2 style="color: gold; font-family: Arial; margin-bottom: 10px;">Intereses Personales</h2>
+                <div style="font-family: Arial, Helvetica, sans-serif;">
+                    <p>Videojuegos</p>
+                    <p>Gimnasio</p>
+                    <p>Pasear con mi perro</p>
+                </div>
+                <h3 style="color: gold; font-family: Arial; margin-top: 20px;">Intereses de capacitación</h3>
+                <div style="font-family: Arial, Helvetica, sans-serif;">
+                    <p>Desarrollo web avanzado</p>
+                    <p>Bases de datos NoSQL</p>
+                </div>
+            </div>
+            <div style="align-self: center;">
+                <img src="./imagenes/huevitorey.jpg" alt="Tu Imagen" style="max-width: 150px; border-radius: 50%;">
+            </div>
+        </div>
+     </div>
+</footer>
+<footer id="leer" style="text-align: center; background-color: #333; color: #fff; padding: 20px;">
+  <div>
+      <h2 style="background-color: #333; color:gold;">Mas imagenes de animales trajeados</h2>
+  </div>
+</footer>
+<div style="text-align: left; padding: 20px; background-color: #333;">
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="margin-bottom: 20px;"><a href="https://www.pinterest.cl/search/pins/?q=perros%20elegantes&rs=typed" style="color: gold; text-decoration: none; display: block; font-size: 18px;">Perros</a></li>
+    <li style="margin-bottom: 20px;"><a href="https://www.pinterest.cl/search/pins/?q=gatos%20elegantes&rs=typed" style="color: gold; text-decoration: none; display: block; font-size: 18px;">Gatos</a></li>
+    <li style="margin-bottom: 20px;"><a href="https://www.pinterest.cl/search/pins/?q=ratas%20elegantes&rs=typed" style="color: gold; text-decoration: none; display: block; font-size: 18px;">Ratas</a></li>
+    <li style="margin-bottom: 20px;"><a href="https://www.pinterest.cl/search/pins/?q=caballos%20elegantes&rs=typed" style="color: gold; text-decoration: none; display: block; font-size: 18px;">Caballos</a></li>
+    <li><a href="https://www.pinterest.cl/search/pins/?q=animales%20elegantes&rs=typed" style="color: gold; text-decoration: none; display: block; font-size: 18px;">Animales Elegantes</a></li>
+  </ul>
+  <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+    <div style="margin-right: 10px;">
+      <a href="https://www.google.cl/"><img src="./iconos/google.png" alt="Icono 1" style="max-width: 50px; height: auto;"></a>
+    </div>
+    <div style="margin-right: 10px;">
+      <a href="https://aws.amazon.com/es/free/?trk=07442992-6a17-42aa-b824-8520367e88c6&sc_channel=ps&s_kwcid=AL!4422!10!71331048780506!71331572045107&ef_id=653aae20b93419abdbc3c82cebd97b43:G:s&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all"><img src="./iconos/aws.png" alt="Icono 2" style="max-width: 50px; height: auto;"></a>
+    </div>
+    <div style="margin-right: 10px;">
+      <a href="https://portal.azure.com"><img src="./iconos/azure.png" alt="Icono 3" style="max-width: 50px; height: auto;"></a>
+    </div>
+    <div style="margin-right: 10px;">
+      <a href="https://www.heroku.com/"><img src="./iconos/heroku.png" alt="Icono 4" style="max-width: 50px; height: auto;"></a>
+    </div>
+    <div>
+      <a href="https://www.oracle.com/cl/"><img src="./iconos/oracle.png" alt="Icono 5" style="max-width: 50px; height: auto;"></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
